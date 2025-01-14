@@ -1,0 +1,417 @@
+Output LR Grid Search:
+Fitting 5 folds for each of 120 candidates, totalling 600 fits
+Best parameters from Grid Search: {'logreg__C': np.float64(0.0001), 'logreg__max_iter': 1000, 'logreg__solver': 'liblinear'}
+Best cross-validation score: 0.1782568344940221
+
+Performing 5-Fold Cross-Validation on the training+validation set:
+
+Fold 1 Results (Validation Set):
+Accuracy: 0.18
+Precision: 0.11
+Recall: 0.18
+F1-Score: 0.11
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.16      0.12      0.14        78
+           1       0.00      0.00      0.00        32
+           2       0.00      0.00      0.00        11
+           3       0.00      0.00      0.00        60
+           4       0.00      0.00      0.00        72
+           5       0.23      0.11      0.15       103
+           6       0.22      0.19      0.20       128
+           7       0.00      0.00      0.00        22
+           8       0.00      0.00      0.00        48
+           9       0.17      1.00      0.28        94
+          10       0.00      0.00      0.00        54
+          11       0.00      0.00      0.00        20
+          12       0.00      0.00      0.00         5
+          13       0.19      0.21      0.20       115
+          14       0.00      0.00      0.00        46
+          15       0.00      0.00      0.00        21
+
+    accuracy                           0.18       909
+   macro avg       0.06      0.10      0.06       909
+weighted avg       0.11      0.18      0.11       909
+
+
+Fold 2 Results (Validation Set):
+Accuracy: 0.14
+Precision: 0.06
+Recall: 0.14
+F1-Score: 0.07
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        74
+           1       0.00      0.00      0.00        20
+           2       0.00      0.00      0.00         9
+           3       0.00      0.00      0.00        70
+           4       0.00      0.00      0.00        67
+           5       0.11      0.17      0.13        87
+           6       0.11      0.05      0.06       133
+           7       0.00      0.00      0.00        25
+           8       0.00      0.00      0.00        66
+           9       0.15      1.00      0.27        92
+          10       0.00      0.00      0.00        43
+          11       0.00      0.00      0.00        16
+          12       0.00      0.00      0.00         6
+          13       0.12      0.10      0.11       139
+          14       0.00      0.00      0.00        45
+          15       0.00      0.00      0.00        17
+
+    accuracy                           0.14       909
+   macro avg       0.03      0.08      0.04       909
+weighted avg       0.06      0.14      0.07       909
+
+
+Fold 3 Results (Validation Set):
+Accuracy: 0.19
+Precision: 0.12
+Recall: 0.19
+F1-Score: 0.12
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        55
+           1       0.00      0.00      0.00        23
+           2       0.00      0.00      0.00        14
+           3       0.00      0.00      0.00        70
+           4       0.00      0.00      0.00        62
+           5       0.15      0.25      0.19        99
+           6       0.26      0.18      0.22       126
+           7       0.00      0.00      0.00        30
+           8       0.00      0.00      0.00        58
+           9       0.18      1.00      0.31       107
+          10       0.00      0.00      0.00        52
+          11       0.00      0.00      0.00        13
+          12       0.00      0.00      0.00         2
+          13       0.28      0.16      0.20       137
+          14       0.00      0.00      0.00        44
+          15       0.00      0.00      0.00        17
+
+    accuracy                           0.19       909
+   macro avg       0.05      0.10      0.06       909
+weighted avg       0.12      0.19      0.12       909
+
+
+Fold 4 Results (Validation Set):
+Accuracy: 0.17
+Precision: 0.09
+Recall: 0.17
+F1-Score: 0.10
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        67
+           1       0.00      0.00      0.00        20
+           2       0.00      0.00      0.00        14
+           3       0.00      0.00      0.00        69
+           4       0.00      0.00      0.00        91
+           5       0.12      0.22      0.16        89
+           6       0.27      0.17      0.20       121
+           7       0.00      0.00      0.00        27
+           8       0.00      0.00      0.00        61
+           9       0.18      0.99      0.30       105
+          10       0.00      0.00      0.00        49
+          11       0.00      0.00      0.00        16
+          12       0.00      0.00      0.00         4
+          13       0.18      0.14      0.16       111
+          14       0.00      0.00      0.00        42
+          15       0.00      0.00      0.00        23
+
+    accuracy                           0.17       909
+   macro avg       0.05      0.09      0.05       909
+weighted avg       0.09      0.17      0.10       909
+
+
+Fold 5 Results (Validation Set):
+Accuracy: 0.19
+Precision: 0.10
+Recall: 0.19
+F1-Score: 0.11
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        76
+           1       0.00      0.00      0.00        25
+           2       0.00      0.00      0.00        13
+           3       0.00      0.00      0.00        78
+           4       0.00      0.00      0.00        62
+           5       0.14      0.20      0.17        89
+           6       0.19      0.13      0.16       131
+           7       0.00      0.00      0.00        14
+           8       0.00      0.00      0.00        45
+           9       0.19      0.99      0.32       117
+          10       0.00      0.00      0.00        50
+          11       0.00      0.00      0.00        21
+          12       0.00      0.00      0.00         3
+          13       0.22      0.17      0.19       126
+          14       0.00      0.00      0.00        41
+          15       0.00      0.00      0.00        17
+
+    accuracy                           0.19       908
+   macro avg       0.05      0.09      0.05       908
+weighted avg       0.10      0.19      0.11       908
+
+
+Overall Cross-Validation Results on Validation Set:
+Mean Accuracy: 0.18
+Standard Deviation of Accuracy: 0.02
+
+Test Set Performance:
+Test Accuracy: 0.15
+Test Precision: 0.07
+Test Recall: 0.15
+Test F1-Score: 0.08
+Classification Report on Test Set:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        88
+           1       0.00      0.00      0.00        45
+           2       0.00      0.00      0.00        15
+           3       0.00      0.00      0.00        88
+           4       0.00      0.00      0.00       100
+           5       0.13      0.18      0.15       103
+           6       0.12      0.10      0.11       142
+           7       0.00      0.00      0.00        30
+           8       0.00      0.00      0.00        60
+           9       0.16      0.98      0.28       123
+          10       0.00      0.00      0.00        63
+          11       0.00      0.00      0.00        25
+          12       0.00      0.00      0.00         5
+          13       0.16      0.14      0.15       161
+          14       0.00      0.00      0.00        63
+          15       0.00      0.00      0.00        26
+
+    accuracy                           0.15      1137
+   macro avg       0.04      0.09      0.04      1137
+weighted avg       0.07      0.15      0.08      1137
+
+
+Confusion Matrix on Test Set:
+[[  0   0   0   0   0  13  15   0   0  45   0   0   0  15   0   0]
+ [  0   0   0   0   0   6   7   0   0  21   0   0   0  11   0   0]
+ [  0   0   0   0   0   5   4   0   0   4   0   0   0   2   0   0]
+ [  0   0   0   0   0  20  22   0   0  38   0   0   0   8   0   0]
+ [  0   0   0   0   0  13  10   0   0  61   0   0   0  16   0   0]
+ [  0   0   0   0   0  19  10   0   0  52   0   0   0  22   0   0]
+ [  0   0   0   0   0  22  14   0   1  81   0   0   0  23   1   0]
+ [  0   0   0   0   0   0   0   0   0  30   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0  60   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   3 120   0   0   0   0   0   0]
+ [  0   0   0   0   0  12  13   0   0  23   0   0   0  15   0   0]
+ [  0   0   0   0   0   0   0   0   1  24   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   1   0   0   3   0   0   0   1   0   0]
+ [  0   0   0   0   0  32  14   0   0  93   0   0   0  22   0   0]
+ [  0   0   0   0   0   2   0   0   0  58   0   0   0   3   0   0]
+ [  0   0   0   0   0   6   3   0   0  15   0   0   0   2   0   0]]
+
+Output LR Random Search:
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+Best parameters from Random Search: {'logreg__solver': 'liblinear', 'logreg__max_iter': 3000, 'logreg__C': np.float64(0.00026366508987303583)}
+Best cross-validation score: 0.1782568344940221
+
+Performing 5-Fold Cross-Validation on the training+validation set:
+
+Fold 1 Results (Validation Set):
+Accuracy: 0.17
+Precision: 0.10
+Recall: 0.17
+F1-Score: 0.10
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.12      0.12      0.12        78
+           1       0.00      0.00      0.00        32
+           2       0.00      0.00      0.00        11
+           3       0.00      0.00      0.00        60
+           4       0.00      0.00      0.00        72
+           5       0.19      0.06      0.09       103
+           6       0.22      0.19      0.20       128
+           7       0.00      0.00      0.00        22
+           8       0.00      0.00      0.00        48
+           9       0.17      1.00      0.28        94
+          10       0.00      0.00      0.00        54
+          11       0.00      0.00      0.00        20
+          12       0.00      0.00      0.00         5
+          13       0.18      0.19      0.19       115
+          14       0.00      0.00      0.00        46
+          15       0.00      0.00      0.00        21
+
+    accuracy                           0.17       909
+   macro avg       0.05      0.10      0.05       909
+weighted avg       0.10      0.17      0.10       909
+
+
+Fold 2 Results (Validation Set):
+Accuracy: 0.14
+Precision: 0.06
+Recall: 0.14
+F1-Score: 0.07
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        74
+           1       0.00      0.00      0.00        20
+           2       0.00      0.00      0.00         9
+           3       0.00      0.00      0.00        70
+           4       0.00      0.00      0.00        67
+           5       0.11      0.17      0.13        87
+           6       0.12      0.05      0.07       133
+           7       0.00      0.00      0.00        25
+           8       0.00      0.00      0.00        66
+           9       0.15      1.00      0.27        92
+          10       0.00      0.00      0.00        43
+          11       0.00      0.00      0.00        16
+          12       0.00      0.00      0.00         6
+          13       0.12      0.10      0.11       139
+          14       0.00      0.00      0.00        45
+          15       0.00      0.00      0.00        17
+
+    accuracy                           0.14       909
+   macro avg       0.03      0.08      0.04       909
+weighted avg       0.06      0.14      0.07       909
+
+
+Fold 3 Results (Validation Set):
+Accuracy: 0.19
+Precision: 0.12
+Recall: 0.19
+F1-Score: 0.12
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        55
+           1       0.00      0.00      0.00        23
+           2       0.00      0.00      0.00        14
+           3       0.00      0.00      0.00        70
+           4       0.00      0.00      0.00        62
+           5       0.16      0.27      0.20        99
+           6       0.29      0.18      0.23       126
+           7       0.00      0.00      0.00        30
+           8       0.00      0.00      0.00        58
+           9       0.18      0.98      0.31       107
+          10       0.00      0.00      0.00        52
+          11       0.00      0.00      0.00        13
+          12       0.00      0.00      0.00         2
+          13       0.25      0.14      0.18       137
+          14       0.00      0.00      0.00        44
+          15       0.00      0.00      0.00        17
+
+    accuracy                           0.19       909
+   macro avg       0.06      0.10      0.06       909
+weighted avg       0.12      0.19      0.12       909
+
+
+Fold 4 Results (Validation Set):
+Accuracy: 0.17
+Precision: 0.09
+Recall: 0.17
+F1-Score: 0.10
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        67
+           1       0.00      0.00      0.00        20
+           2       0.00      0.00      0.00        14
+           3       0.00      0.00      0.00        69
+           4       0.00      0.00      0.00        91
+           5       0.12      0.22      0.16        89
+           6       0.27      0.17      0.21       121
+           7       0.00      0.00      0.00        27
+           8       0.00      0.00      0.00        61
+           9       0.18      0.99      0.30       105
+          10       0.00      0.00      0.00        49
+          11       0.00      0.00      0.00        16
+          12       0.00      0.00      0.00         4
+          13       0.19      0.14      0.16       111
+          14       0.00      0.00      0.00        42
+          15       0.00      0.00      0.00        23
+
+    accuracy                           0.17       909
+   macro avg       0.05      0.09      0.05       909
+weighted avg       0.09      0.17      0.10       909
+
+
+Fold 5 Results (Validation Set):
+Accuracy: 0.19
+Precision: 0.11
+Recall: 0.19
+F1-Score: 0.11
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        76
+           1       0.00      0.00      0.00        25
+           2       0.00      0.00      0.00        13
+           3       0.00      0.00      0.00        78
+           4       0.00      0.00      0.00        62
+           5       0.14      0.21      0.17        89
+           6       0.19      0.12      0.15       131
+           7       0.00      0.00      0.00        14
+           8       0.17      0.04      0.07        45
+           9       0.20      0.99      0.33       117
+          10       0.00      0.00      0.00        50
+          11       0.00      0.00      0.00        21
+          12       0.00      0.00      0.00         3
+          13       0.22      0.16      0.18       126
+          14       0.00      0.00      0.00        41
+          15       0.00      0.00      0.00        17
+
+    accuracy                           0.19       908
+   macro avg       0.06      0.10      0.06       908
+weighted avg       0.11      0.19      0.11       908
+
+
+Overall Cross-Validation Results on Validation Set:
+Mean Accuracy: 0.17
+Standard Deviation of Accuracy: 0.02
+
+Test Set Performance:
+Test Accuracy: 0.15
+Test Precision: 0.08
+Test Recall: 0.15
+Test F1-Score: 0.08
+Classification Report on Test Set:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        88
+           1       0.00      0.00      0.00        45
+           2       0.00      0.00      0.00        15
+           3       0.00      0.00      0.00        88
+           4       0.00      0.00      0.00       100
+           5       0.12      0.19      0.15       103
+           6       0.12      0.08      0.10       142
+           7       0.00      0.00      0.00        30
+           8       0.19      0.05      0.08        60
+           9       0.17      0.97      0.28       123
+          10       0.00      0.00      0.00        63
+          11       0.00      0.00      0.00        25
+          12       0.00      0.00      0.00         5
+          13       0.16      0.13      0.14       161
+          14       0.00      0.00      0.00        63
+          15       0.00      0.00      0.00        26
+
+    accuracy                           0.15      1137
+   macro avg       0.05      0.09      0.05      1137
+weighted avg       0.08      0.15      0.08      1137
+
+
+Confusion Matrix on Test Set:
+[[  0   0   0   0   0  15  13   0   1  44   0   0   0  15   0   0]
+ [  0   0   0   0   0   7   7   0   0  21   0   0   0  10   0   0]
+ [  0   0   0   0   0   5   4   0   0   4   0   0   0   2   0   0]
+ [  0   0   0   0   0  24  19   0   0  38   0   0   0   7   0   0]
+ [  0   0   0   0   0  13  10   0   1  60   0   0   0  16   0   0]
+ [  0   0   0   0   0  20  10   0   2  50   0   0   0  21   0   0]
+ [  0   0   0   0   0  25  12   0   1  81   0   0   0  22   1   0]
+ [  0   0   0   0   0   0   0   0   0  30   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   3  57   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   4 119   0   0   0   0   0   0]
+ [  0   0   0   0   0  12  13   0   0  23   0   0   0  15   0   0]
+ [  0   0   0   0   0   0   0   0   1  24   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   1   0   0   3   0   0   0   1   0   0]
+ [  0   0   0   0   0  37  10   0   1  92   0   0   0  21   0   0]
+ [  0   0   0   0   0   2   0   0   1  57   0   0   0   3   0   0]
+ [  0   0   0   0   0   6   3   0   1  14   0   0   0   2   0   0]]
