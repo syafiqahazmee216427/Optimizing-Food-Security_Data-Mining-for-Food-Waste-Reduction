@@ -22,4 +22,5 @@ The dataset focuses on identifying patterns and factors contributing to food was
 - EstablishmentYear: The year the outlet was established, influencing operational efficiency.
 - OutletSize: Outlet capacity, which correlates with inventory levels and wastage.
 - LocationType: Geographical classification of the outlet's location.
+
 This dataset is particularly relevant as it provides a comprehensive view of outlet and product characteristics, allowing for an in-depth analysis of food wastage patterns.
