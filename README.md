@@ -24,3 +24,7 @@ The dataset focuses on identifying patterns and factors contributing to food was
 - LocationType: Geographical classification of the outlet's location.
 
 This dataset is particularly relevant as it provides a comprehensive view of outlet and product characteristics, allowing for an in-depth analysis of food wastage patterns.
+
+Our Focus;
+In this study, we focused on predicting the type of food in order to estimate the potential content of food waste. The prediction of food types serves a crucial role in determining the composition of food waste, which can subsequently be utilized for fertilizer preparation. This approach offers a valuable solution to reduce waste and promote sustainable practices by recycling food waste into useful resources. By accurately predicting the food types, we can better understand waste patterns and optimize processes for creating fertilizers, thus contributing to environmental sustainability.
+
